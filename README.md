@@ -18,6 +18,8 @@
 <img align="left" alt="Visual Studio Code" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png" />
 <img align="left" alt="Jetbrains Rider" width="26px" src="https://resources.jetbrains.com/storage/products/rider/img/meta/rider_logo_300x300.png" />
 <br/>
+<br/>
+<br/>
 <img align="left" alt="Microsoft Dotnet" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/1024px-.NET_Logo.svg.png" />
 <img align="left" alt="Microsoft Asp.net" width="26px" src="https://sathyatech.com/wp-content/uploads/2020/11/aspnet.png" />
 <img align="left" alt="Microsoft Xamarin" width="26px" src="https://cdn.freebiesupply.com/logos/large/2x/xamarin-logo-png-transparent.png" />
