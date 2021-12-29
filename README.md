@@ -7,7 +7,7 @@
 - ⚡ Fun fact: I love to play video games.
 
 ### Connect with me:
-[<a href="mailto:manuaradhya07@gmail.com"><img width="22px" src="https://cdn.imgbin.com/16/1/20/imgbin-gmail-email-icon-logo-gmail-logo-gmail-logo-KkEdJfsY4cwA1xRPRhmSB1GwC.jpg" alt="EMAIL ME"/></a>]
+[<a href="mailto:manuaradhya07@gmail.com"><img align="left" width="22px" src="https://cdn.imgbin.com/16/1/20/imgbin-gmail-email-icon-logo-gmail-logo-gmail-logo-KkEdJfsY4cwA1xRPRhmSB1GwC.jpg" alt="EMAIL ME"/></a>]
 [<a href="https://www.linkedin.com/in/prajwal-aradhya/"><img align="left" alt="Prajwal Aradhya | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /></a>]
 
 <br />
