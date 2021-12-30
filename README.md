@@ -1,6 +1,6 @@
 ### Hi there, I'm Prajwal Aradhya S K 👋 
 
-## I'm a Fullstack Developer alse Hobbyist GameDev🎮!!
+## I'm a Beginner Fullstack Developer also Hobbyist GameDev🎮!!
 
 - 🌱 I’m currently learning everything 🤣
 - 🥅 2022 Goals: Keeps on learning until i Burnout..
