@@ -1,10 +1,11 @@
 ### Hi there, I'm Prajwal Aradhya S K 👋 
 
-## I'm a Beginner Fullstack Developer also Hobbyist GameDev🎮!!
+## I'm a Fullstack Developer alse Hobbyist GameDev🎮!!
 
 - 🌱 I’m currently learning everything 🤣
 - 🥅 2022 Goals: Keeps on learning until i Burnout..
 - ⚡ Fun fact: I love to play video games.
+- ⭐ Interesting fact: I like cats more than dogs.
 
 ### Connect with me:
 <a href="mailto:manuaradhya07@gmail.com"><img align="left" width="22px" src="https://cdn.imgbin.com/16/1/20/imgbin-gmail-email-icon-logo-gmail-logo-gmail-logo-KkEdJfsY4cwA1xRPRhmSB1GwC.jpg" alt="EMAIL ME"/></a>
