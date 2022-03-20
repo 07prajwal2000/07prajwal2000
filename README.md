@@ -23,7 +23,6 @@
 <br/>
 <img align="left" alt="Microsoft Dotnet" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/1024px-.NET_Logo.svg.png" />
 <img align="left" alt="Microsoft Asp.net" width="26px" src="https://sathyatech.com/wp-content/uploads/2020/11/aspnet.png" />
-<img align="left" alt="Microsoft Xamarin" width="26px" src="https://cdn.freebiesupply.com/logos/large/2x/xamarin-logo-png-transparent.png" />
 <img align="left" alt="Microsoft Blazor" width="26px" src="https://www.pngitem.com/pimgs/m/462-4623623_blazor-icon-blazor-logo-svg-hd-png-download.png" />
 <img align="left" alt="Docker" width="26px" src="https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png" />
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
