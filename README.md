@@ -8,8 +8,8 @@
 - ⭐ Current Situation : Completed Undergrad 
 
 ### CONNECT
-![https://www.linkedin.com/in/prajwal-aradhya/](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
-![mailto:manuaradhya07@gmail.com](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+<a href="https://www.linkedin.com/in/prajwal-aradhya/">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
+<a href="mailto:manuaradhya07@gmail.com">![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
 
 
 ### LANGUAGES AND TOOLS
