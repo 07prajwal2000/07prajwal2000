@@ -44,6 +44,5 @@
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 # STATS
-![Stats](https://github-readme-stats.vercel.app/api?username=07prajwal2000&show_icons=true&theme=radical)
 
 ![Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=07prajwal2000&theme=radical&layout=compact)
