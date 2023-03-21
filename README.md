@@ -7,6 +7,10 @@
 - ⚡ Fun fact: I love to play video games.
 - ⭐ Current Situation : Completed Undergrad 
 
+### PROFILE
+[![GFG](https://img.shields.io/badge/GeeksforGeeks-gray?style=for-the-badge&logo=geeksforgeeks&logoColor=35914c)](https://auth.geeksforgeeks.org/user/07prajwal2000/)
+[![Leetcode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/07prajwal2000/)
+
 ### CONNECT
 <a href="https://www.linkedin.com/in/prajwal-aradhya/" target="_blank">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
 <a href="mailto:manuaradhya07@gmail.com">![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
