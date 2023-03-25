@@ -1,11 +1,10 @@
 ### Hi there, I'm Prajwal Aradhya S K 👋 
 
-## I'm a Fullstack and Unity Developer🎮!!
+## I'm a Software Developer!!
 
-- 🌱 I’m currently learning everything 🤣
-- 🥅 2022 Goals: Keeps on learning until i Burnout..
-- ⚡ Fun fact: I love to play video games.
-- ⭐ Current Situation : Completed Undergrad 
+- 🥅 2023 Goals: Keeps on learning until i Burnout..
+- ⚡ Fun fact: I love coding and to play video games.
+- ⭐ Current Situation : Completed Undergrad on 2022 & working as software engineer at [ISG](https://isg-one.com/).
 
 ### PROFILE
 [![GFG](https://img.shields.io/badge/GeeksforGeeks-gray?style=for-the-badge&logo=geeksforgeeks&logoColor=35914c)](https://auth.geeksforgeeks.org/user/07prajwal2000/)
