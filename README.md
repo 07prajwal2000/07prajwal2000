@@ -14,6 +14,13 @@
 <a href="https://www.linkedin.com/in/prajwal-aradhya/" target="_blank">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
 <a href="mailto:manuaradhya07@gmail.com">![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
 
+### OSS Contributions
+
+| Name  | Description  | Repository  |
+|---|---|---|
+| DevFind  | devFind is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format. | [Link](https://github.com/shyamtawli/devFind)  |
+| Leetcode Rest API | LeetCode API to access the details of a User  | [Link](https://github.com/bharathkalyans/leetcode-rest-api)  |
+| Github Graduation - 2022  | Join the GitHub Graduation Yearbook and "walk the stage" on June 11.   | [Link](https://github.com/education/GitHubGraduation-2022)  |
 
 ### LANGUAGES AND TOOLS
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
