@@ -18,6 +18,7 @@
 
 | Name  | Description  | Repository  |
 |---|---|---|
+| Shorty  | Shorty. A URL shortener app written in Go and React | [Link](https://github.com/07prajwal2000/Shorty)  |
 | DevFind  | devFind is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format. | [Link](https://github.com/shyamtawli/devFind)  |
 | Leetcode Rest API | LeetCode API to access the details of a User  | [Link](https://github.com/bharathkalyans/leetcode-rest-api)  |
 | Github Graduation - 2022  | Join the GitHub Graduation Yearbook and "walk the stage" on June 11.   | [Link](https://github.com/education/GitHubGraduation-2022)  |
