@@ -2,8 +2,8 @@
 
 ## I'm a Software Developer!!
 
-- 🥅 2023 Goals: Keeps on learning until i Burnout..
-- ⚡ Fun fact: I love coding and to play video games.
+- 🥅 2024 Goals: Keeps on learning..
+- ⚡ Fun fact: I love programming and to play video games all day.
 - ⭐ Current Situation : Completed Undergrad on 2022 & working as software engineer at [ISG](https://isg-one.com/).
 
 ### PROFILE
@@ -13,6 +13,7 @@
 ### CONNECT
 <a href="https://www.linkedin.com/in/prajwal-aradhya/" target="_blank">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
 <a href="mailto:manuaradhya07@gmail.com">![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
+<a href="https://linktr.ee/prajwal_aradhya">![LinkTree](https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)</a>
 
 ### OSS Contributions
 
