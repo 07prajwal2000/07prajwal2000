@@ -9,6 +9,7 @@
 ### PROFILE
 [![GFG](https://img.shields.io/badge/GeeksforGeeks-gray?style=for-the-badge&logo=geeksforgeeks&logoColor=35914c)](https://auth.geeksforgeeks.org/user/07prajwal2000/)
 [![Leetcode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/07prajwal2000/)
+[![HashNode](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://blogs.codewithprajwal.dev/)
 
 ### CONNECT
 <a href="https://www.linkedin.com/in/prajwal-aradhya/" target="_blank">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
@@ -20,7 +21,7 @@
 | Name  | Description  | Repository  |
 |---|---|---|
 | Shorty  | Shorty. A URL shortener app written in Go and React | [Link](https://github.com/07prajwal2000/Shorty)  |
-| DevFind  | devFind is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format. | [Link](https://github.com/shyamtawli/devFind)  |
+| DevFind  | devFind is an open-source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format. | [Link](https://github.com/shyamtawli/devFind)  |
 | Leetcode Rest API | LeetCode API to access the details of a User  | [Link](https://github.com/bharathkalyans/leetcode-rest-api)  |
 | Github Graduation - 2022  | Join the GitHub Graduation Yearbook and "walk the stage" on June 11.   | [Link](https://github.com/education/GitHubGraduation-2022)  |
 
@@ -42,6 +43,9 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
+## CLOUD
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
 ## VCS
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
@@ -51,10 +55,8 @@
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white)
 
 ## O.S
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-
-# STATS
-
-![Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=07prajwal2000&theme=blue-green)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
