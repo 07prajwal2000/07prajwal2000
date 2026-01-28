@@ -1,3 +1,4 @@
+"use client";
 import { Skill } from "@/data/commands";
 import { useMemo } from "react";
 
