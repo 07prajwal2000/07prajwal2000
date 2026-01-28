@@ -11,6 +11,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HYGRAPH_URL: ${{ secrets.HYGRAPH_URL }}
+      HYGRAPH_API_KEY: ${{ secrets.HYGRAPH_API_KEY }}
 
     steps:
       - name: Checkout repository
