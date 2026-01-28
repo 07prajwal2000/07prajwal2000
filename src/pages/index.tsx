@@ -1,78 +1,86 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+import Terminal from "@/components/terminal";
+import TerminalFooter from "@/components/terminalFooter";
+import { TerminalProvider } from "@/context/terminal";
+import { CliBuilder } from "@/lib/cliParser";
+import { addHelpCommand } from "@/data/commands";
+import { addLsCommands } from "@/data/commands";
+import { addOpenCommands } from "@/data/commands";
+import { addEchoCommands } from "@/data/commands";
+import { addSocialCommands } from "@/data/commands";
+import { useMemo } from "react";
+import { useHistoryActions } from "@/store/history";
+import { InferGetStaticPropsType } from "next";
+import {
+  getBlogList,
+  getEducationList,
+  getExperienceList,
+  getProfileData,
+  getProjectsList,
+  getSkillsList,
+  getSocialLinks,
+} from "@/data/gqlLoader";
+import axios from "axios";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+export async function getStaticProps() {
+  const fetcher = axios.create({
+    baseURL: process.env.HYGRAPH_URL,
+    headers: {
+      Authorization: `Bearer ${process.env.HYGRAPH_API_KEY}`,
+    },
+  });
+  const socialLinks = await getSocialLinks(fetcher);
+  const projects = await getProjectsList(fetcher);
+  const skills = await getSkillsList(fetcher);
+  const blogs = await getBlogList();
+  const experiences = await getExperienceList(fetcher);
+  const education = await getEducationList(fetcher);
+  const profile = await getProfileData(fetcher);
+  return {
+    props: {
+      socialLinks,
+      projects,
+      skills,
+      blogs,
+      experiences,
+      education,
+      profile,
+    },
+  };
+}
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+export default function Home(
+  props: InferGetStaticPropsType<typeof getStaticProps>,
+) {
+  const { clearHistory } = useHistoryActions();
+  const parser = useMemo(() => {
+    const builder = new CliBuilder();
+    addHelpCommand(builder);
+    addEchoCommands(builder, {
+      education: props.education,
+      experience: props.experiences,
+      socials: props.socialLinks,
+      skills: props.skills,
+      projects: props.projects,
+      profile: props.profile,
+    });
+    addSocialCommands(builder, props.socialLinks);
+    addOpenCommands(builder, props.socialLinks);
+    addLsCommands(builder, props.blogs, props.projects);
+    builder.addCommand("clear", {
+      executor: () => {
+        clearHistory();
+      },
+      helpText: "Clears the terminal",
+    });
+    return builder.build();
+  }, []);
 
-export default function Home() {
   return (
-    <div
-      className={`${geistSans.className} ${geistMono.className} flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black`}
-    >
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the index.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs/pages/getting-started?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div className="w-dvw h-dvh flex flex-col p-4 overflow-hidden">
+      <TerminalProvider value={{ cliParser: parser }}>
+        <Terminal />
+        <TerminalFooter />
+      </TerminalProvider>
     </div>
   );
 }
