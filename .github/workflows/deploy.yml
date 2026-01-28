@@ -2,7 +2,7 @@ name: Build Next.js static site (Bun)
 
 on:
   push:
-    branches: [main]
+    branches: [main, master]
   workflow_dispatch:
 
 permissions:
