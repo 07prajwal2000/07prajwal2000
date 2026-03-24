@@ -3,6 +3,11 @@ import { createContext, useContext } from "react";
 
 export type TerminalContextType = {
 	cliParser: CliParser;
+	socialLinks: {
+		url: string;
+		label: string;
+		active: boolean;
+	}[];
 };
 
 export const IGNORED_COMMANDS = ["clear"];

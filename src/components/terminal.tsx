@@ -3,8 +3,10 @@ import HistoryItem from "./historyItem";
 import WelcomeAscii from "./welcomeAscii";
 import { useEffect, useRef } from "react";
 import SocialNavbar from "./socialNavbar";
+import { useTerminalContext } from "@/context/terminal";
 
 const Terminal = () => {
+	const { socialLinks } = useTerminalContext();
 	const historyState = useHistoryState();
 	const ref = useRef<HTMLDivElement>(null);
 
@@ -29,10 +31,24 @@ const Terminal = () => {
 				{historyState.history.length === 0 && (
 					<>
 						<SocialNavbar
-							blog="https://07prajwal2000.hashnode.dev/"
-							github="https://github.com/07prajwal2000"
-							linkedin="https://www.linkedin.com/in/prajwal-aradhya/"
-							email="manuaradhya07@gmail.com"
+							blog={
+								socialLinks.find((link) => link.label.toLowerCase() === "blog")
+									?.url || ""
+							}
+							github={
+								socialLinks.find(
+									(link) => link.label.toLowerCase() === "github",
+								)?.url || ""
+							}
+							linkedin={
+								socialLinks.find(
+									(link) => link.label.toLowerCase() === "linkedin",
+								)?.url || ""
+							}
+							email={
+								socialLinks.find((link) => link.label.toLowerCase() === "email")
+									?.url || ""
+							}
 						/>
 						<div className="flex flex-col justify-center text-[10px] lg:text-xl items-center h-full w-full text-center">
 							<WelcomeAscii />
